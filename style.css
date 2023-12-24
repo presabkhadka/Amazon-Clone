@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* BOX-1 */
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(./images/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    height: 80%;
+}
+
+/* BOX-2 */
+
+#first-text{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+
+#second-text{
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* BOX-3 */
+
+.nav-searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-icon{
+    margin-left: 3px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.nav-searchbar:hover{
+    border: 2px solid orange;
+}
+
+/* BOX-4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+#nav-second{
+    font-weight: bold;
+    color: white;
+    font-size: 0.85rem;
+}
+
+/* BOX-5 */
+
+.cart{
+    display: flex;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+/* pannel */
+
+.pannel{
+    background-color:#232f3e;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-menu p{
+    display: inline;
+}
+
+.pannel-menu{
+    width: 70%;
+}
+
+.pannel-deals{
+    display: flex;
+    align-items: center;
+}
+
+.pannel-deals i{
+    font-size: 30px;
+}
+
+.pannel-deals p{
+    margin-left: 5px;
+}
+
+
