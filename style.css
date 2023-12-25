@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+body{
+    background-color:#f3f3f3;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -152,6 +156,28 @@ span{
 
 .pannel-deals p{
     margin-left: 5px;
+}
+
+/* IMAGE SLIDER*/
+
+.imageslider{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider{
+background-image: url(./images/hero_image.jpg);
+background-size:cover;
+height: 300px;
+width: 100%;
+}
+
+/* ITEM */
+
+.box{
+    border: 2px solid black;
+    height: 100px;
 }
 
 
